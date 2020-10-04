@@ -7,13 +7,13 @@ Authors@R:
            role = c("aut", "cre"),
            email = "first.last@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Contains data and examples from the CWD courses
+Description: Contains data and examples from the CWD course.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
-URL: https://github.com/tidyverts/tsibbledata
+URL: https://github.com/Lulu-Pi/cwdata
 BugReports: https://github.com/Lulu-Pi/cwdata/issues
 Depends:
   R (>= 2.10)

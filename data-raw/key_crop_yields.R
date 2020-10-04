@@ -1,6 +1,5 @@
-## code to prepare 'key_crop_yields.R" dataset gose here
+## code to prepare `key_crop_yields` dataset goes here
 
-use_data_raw(name = "key_crop_yields")
 
 library(readr)
 library(janitor)
@@ -9,16 +8,17 @@ library(magrittr)
 library(dplyr)
 url <- 'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-09-01/key_crop_yields.csv'
 
-key_crop_yields <- read_csv(url) %>% 
-  clean_names() %>% 
+key_crop_yields <- read_csv(url) %>%
+  clean_names() %>%
   pivot_longer(
     cols = c(-entity, -code, -year),
-    names_to = "crop", 
+    names_to = "crop",
     values_to = "tonnes_per_hectare",
     names_pattern = "([^_]+)"
   ) %>%
   rename(country = entity)
-  
+
+
 
 
 usethis::use_data(key_crop_yields, overwrite = TRUE)
