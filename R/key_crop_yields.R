@@ -1,6 +1,6 @@
 #' Global key crop yields
 #'
-#' This dataset contains crop yields from 249 countries.
+#' This dataset contains crop yields from **249 countries**.
 #'
 #'
 #' TODO: Add description of the columns
