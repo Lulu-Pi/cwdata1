@@ -18,4 +18,10 @@ BugReports: https://github.com/Lulu-Pi/cwdata1/issues
 Depends:
   R (>= 2.10)
 Imports: 
-    tibble
+    tibble,
+    ggplot2
+Suggests: 
+    knitr,
+    rmarkdown,
+    dplyr
+VignetteBuilder: knitr
