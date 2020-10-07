@@ -1,5 +1,6 @@
 template:
   params:
+<<<<<<< HEAD
     bootswatch: cosmo
 
 navbar:
@@ -18,3 +19,6 @@ reference:
     All datasets provided by the package
   contents:
     - key_crop_yields
+=======
+    bootswatch: pulse
+>>>>>>> master
